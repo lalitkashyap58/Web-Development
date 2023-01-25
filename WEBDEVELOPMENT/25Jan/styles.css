@@ -1,0 +1,42 @@
+/* 
+universal selector */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* element selector */
+/* h1 {
+  color: #080808;
+  background-color: yellow;
+} */
+/* class selector */
+.pra {
+  color: red;
+}
+/* des selector */
+main p {
+  color: red;
+}
+/* child selector */
+h1 > p {
+  color: blue;
+}
+seection > p {
+  color: purple;
+}
+/* sibling */
+section + p {
+  color: red;
+}
+/* general sibling selector */
+section ~ p {
+  background-color: black;
+}
+/* attribute selector */
+[target="_blank"] {
+  color: pink;
+  text-decoration: none;
+}
+body {
+  font-family: "Tiro Devanagari Hindi", serif;
+}
