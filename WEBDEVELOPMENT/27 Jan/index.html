@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pseudo Classes</title>
+        <style>
+            /* hover */
+            p:hover {
+                background-color: black;
+                color: white;
+            }
+
+            /* focus */
+            input:focus {
+                color: red;
+                background-color: aliceblue;
+                font-size: 25px;
+            }
+
+            div {
+                width: 100px;
+                height: 100px;
+                background-color: red;
+                animation-name: colorchange;
+                animation-duration: 10s;
+                animation-delay: 3s;
+            }
+
+            @keyframes colorchange {
+                from {
+                    background-color: red;
+                    top: 100px;
+                }
+
+                to {
+                    background-color: black;
+                    top: 200px;
+                    left: 500px;
+                }
+
+            }
+        </style>
+    </head>
+
+    <body>
+        <input type="text">
+        <p class="hover">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi quam quae ea nam laudantium ad
+            enim quis, at unde soluta ipsa praesentium optio deleniti magnam quos accusantium aperiam veniam totam.</p>
+        <div></div>
+
+
+
+    </body>
+
+</html>
